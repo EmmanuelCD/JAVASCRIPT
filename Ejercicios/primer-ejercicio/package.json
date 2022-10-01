@@ -1,0 +1,17 @@
+{
+  "name": "primer-ejercicio",
+  "version": "1.0.0",
+  "description": "Primer Ejercio con node.js de la mano de Open BootCamp",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "#Js",
+    "#JavaScript",
+    "#Node.js"
+  ],
+  "author": "Emmanuel Camacho",
+  "license": "ISC"
+}
