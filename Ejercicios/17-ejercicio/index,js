@@ -1,0 +1,45 @@
+let markers, map;
+
+function initMap() {
+  const posicion = {
+    lat: -25.363,
+    lng: 131.044,
+  };
+
+  map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: posicion,
+  });
+
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 19.024333771904796,
+        lng: -70.99868401807755,
+      },
+      map,
+      title: "Pico Duarte",
+    })
+  );
+
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 19.462192426241334,
+        lng: -70.68743252477707,
+      },
+      map,
+      title: "Hazlo Simple, Hamburguesas",
+    })
+  );
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 19.454047140403723,
+        lng: -70.67426695223581,
+      },
+      map,
+      title: "Parque Villa olga",
+    })
+  );
+}
